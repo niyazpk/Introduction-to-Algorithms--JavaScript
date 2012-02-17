@@ -1,3 +1,5 @@
+/* Insertion Sort */
+
 function insertionSort(arr) {
 
     for (var i = 1; i < arr.length; i++) {
@@ -15,6 +17,9 @@ function insertionSort(arr) {
     return arr;
 
 }
+
+
+/* Testing the function */
 
 /* Test arrays. We use copies because the functions sort in place and
    we don't want the second function to work with the result of the first one
